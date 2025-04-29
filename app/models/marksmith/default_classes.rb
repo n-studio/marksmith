@@ -59,7 +59,7 @@ class Marksmith::DefaultClasses
       "ms:flex-1 ms:flex ms:items-center"
     when :textarea
       class_names(
-        "ms:flex ms:flex-1 ms:border-none ms:resize-none ms:focus:outline-none ms:font-mono ms:focus:ring-0 ms:leading-normal ms:p-2 ms:text-sm ms:field-sizing-content ms:min-h-60",
+        "ms:flex ms:flex-1 ms:border-none ms:resize-none ms:focus:outline-none ms:font-mono ms:focus:ring-0 ms:leading-normal ms:p-2 ms:text-sm ms:field-sizing-content",
         "ms:dark:bg-neutral-800 ms:dark:text-neutral-200"
       )
     when :toolbar
